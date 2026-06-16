@@ -1,9 +1,0 @@
-title: Assignment
-description: Web Pages Assignment
-theme: jekyll-theme-primer
-plugins:
-  - jekyll-github-metadata
-  - jekyll-seo-tag
-
-# Build settings
-markdown: kramdown
