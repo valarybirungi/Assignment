@@ -34,7 +34,7 @@
         <!-- side bar -->
         <!-- page content -->
         <div class="homepage">
-            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
                 <div class="container">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
@@ -69,52 +69,65 @@
                     </div>
                 </div>
             </nav>
-            <div class="container text-left">
-                <div class="row">
-                    <div class="col">
-                        <h3>Why choose Oyera</h3>
+            <!-- caroussel -->
+            <div id="carouselId" class="carousel align-items-center slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="./Images/—Pngtree—website technology line dark background_2443641.png"
+                            class="w-100 d-block" alt="First slide" />
                     </div>
-                    <div class="col">
-                        <h3>terms & conditions</h3>
+                    <div class="carousel-item">
+                        <img src="./Images/Los mercados globales muestran divergencias….jpg" class="w-100 d-block"
+                            alt="Second slide" />
                     </div>
-                    <div class="col">
-                        <h3>Support</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <p>Contact us
-                            In Uganda, Shell products and services are provided by Vivo Energy, a licensee of the Shell
-                            brand.</br>
-                            Vivo Energy Uganda</br>
-                            7th Street Industrial Area</br>
-                            Plot 9,11</br>
-                            P.O. Box 7082 Kampala, Uganda</br>
-                            Phone: + 256 312 210010 / 256 414 339499</br>
-                            Fax: + 256 414 255560 / 256 414 25531</br>
-                            Email- customerservice.oyeraservices.com</br>
-                            Connect with us</br>
-                            Instagram</br>
-                            YouTube</br>
-                            Facebook</br>
-                            LinkedIn</br>
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p>Terms and conditions</br>
-                           Welcome to the Uganda web site. </br>This web site is owned and operated by Shell International B.V., a company </br>registered in The Netherlands with registered number 27155369 whose registered office is at Carel van Bylandtlaan 30, 2596 HR The Hague, The Netherlands.
-                           </br>Visitors to this web site are bound by the following terms and conditions so please read these carefully before going on.</br> For the purposes of these terms and conditions, "this web site" means the Uganda web site, which links to other Shell web sites.
-                           </br>Other Shell web sites may contain terms and conditions which are different from these terms and conditions. </br>On your journey around the Shell web sites please check the terms and conditions of each web site which you visit and do not assume that these terms and conditions apply to all Shell web sites.
-</p>
-                    </div>
-                    <div class="col">
-                        <p>Help Center</br>
-                            Car Tracking</br>
-                            Global Protection Program</br>
-                            Damage condition report</br>
-                            Shipping</br>ScheduleChassis Check
-                        </p>
+                    <div class="carousel-item">
+                        <img src="./Images/1043427807543102977.jpg" class="w-100 d-block" alt="Third slide" />
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <div class="about container mt-5">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./Images/From Chaos to Order_ How to Organize Your Cloud File Storage.jpg" alt="">
+                    </div>
+                    <div class="col-7">
+                        <h3>About us</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsa porro eveniet reiciendis,
+                            quos rem aperiam numquam sed culpa, at obcaecati voluptatum! Pariatur nesciunt aliquam
+                            accusamus aperiam assumenda sequi maiores distinctio culpa id libero ea molestias ab nemo,
+                            quisquam officiis totam in deserunt minima voluptatem voluptatum inventore cum tempora eaque
+                            voluptas! Rem quas fugiat sunt debitis illo laborum expedita nobis quae, ullam eveniet
+                            perspiciatis itaque autem, sed earum officiis sequi et doloremque, magnam ut accusamus.
+                            Totam architecto nobis distinctio vitae. Qui voluptatibus animi autem quidem perferendis nam
+                            sequi esse. Omnis atque dicta nulla dolorem aperiam, optio aliquid illo? Quo, consequuntur.
+                            lore
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- Bootstap JS files  -->
+            <script src="./bootstrap/js/bootstrap.js"></script>
+            <script src="./bootstrap/js/bootstrap.min.js"></script>
 
 </body>
